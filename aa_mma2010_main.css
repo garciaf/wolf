@@ -1,0 +1,221 @@
+/* CSS Document */
+
+body {
+  padding-top: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.8em;
+    color: black;
+    background-color: white;
+  line-height: 130%;
+  }
+
+h1 {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  font-size: 1.3em;
+  font-family: tahoma, arial, sans-serif;
+    font-weight: bold;
+  color: #666666;
+  }
+
+h2 {
+  margin-top: 2em;
+  margin-left: 0em;
+  margin-right: 1em;
+  margin-bottom: 0.4em;
+  font-size: 1.1em;
+  font-family: arial, sans-serif;
+    font-weight: bold;
+  color: #666666;
+  border-bottom: 1px solid grey;
+  }
+
+h3 {
+  margin-top: 1em;
+  margin-left: 0em;
+  margin-right: 1em;
+  margin-bottom: 0.4em;
+  font-size: 1.1em;
+  font-family: arial, sans-serif;
+    font-weight: bold;
+  color: #666666;
+  border-bottom: 1px solid grey;
+  }
+
+h4 {
+  margin-top: 1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 0.4em;
+  font-size: 1.1em;
+  font-family: arial, sans-serif;
+    font-weight: bold;
+  color: #666666;
+  }
+
+#content {
+  border:1px solid black;
+  background-color:white;
+  padding:1em;
+  color:black;
+  float:left;
+  }
+
+ul.nav {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  }
+
+ul.nav li {
+  float: left;
+  }
+
+ul.nav a {
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 5px 15px 5px 15px;
+  margin-right: 5px;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  }
+
+ul.nav2 {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin-top: -10px;
+  }
+
+ul.nav2 li {
+  display: inline;
+  }
+
+ul.nav2 a {
+  border: 0px solid silver;
+  padding: 1px;
+  margin-left: 0px;
+  margin-right: 5px;
+  background-color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.8em;
+
+  }
+
+ul.nav3 {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin-top: -10px;
+  }
+
+ul.nav3 li {
+  display: inline;
+  }
+
+ul.nav3 a {
+  border: 0px solid silver;
+  padding: 1px;
+  margin-left: 0px;
+  margin-right: 5px;
+  background-color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.8em;
+  }
+
+#mainNav a:link { color: black; }
+#mainNav a:visited { color: black; }
+#mainNav a:hover { color: grey; }
+#mainNav a:active { color: black; }
+
+#smallNav a:link { color: grey; }
+#smallNav a:visited { color: grey; }
+#smallNav a:hover { color: silver; }
+#smallNav a:active { color: grey; }
+
+#stylesNav a:link { color: black; }
+#stylesNav a:visited { color: black; }
+#stylesNav a:hover { color: grey; }
+#stylesNav a:active { color: black; }
+
+img.right {
+  float: right;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 15px;
+  background-color: white;
+}
+
+img.left {
+  float: left;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 15px;
+  background-color: white;
+}
+
+#team {
+  width: 480px;
+  border-collapse: collapse;
+  text-align: left;
+  color: #000000;
+}
+
+#team td, #team th {
+  border: 1px solid #000000;
+  padding: 12px 12px 12px 12px;
+}
+
+#fightcard {
+  width: 480px;
+  border-collapse: collapse;
+  text-align: center;
+  color: #000000;
+}
+
+#fightcard caption {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+#fightcard td, #fightcard th {
+  border: 1px solid #000000;
+  padding: 3px 7px 2px 7px;
+}
+
+#fightcard th {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+
+#fightcard td {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#redcorner {
+  width: 204px;
+}
+
+#bluecorner {
+  width: 204px;
+}
